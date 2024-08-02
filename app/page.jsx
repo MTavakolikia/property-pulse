@@ -1,7 +1,14 @@
-export default function HomePage() {
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+import React from "react";
+
+const HomePage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home Page
-    </main>
+    <div>
+      <Hero />
+      <InfoBoxes />
+    </div>
   );
-}
+};
+
+export default HomePage;
