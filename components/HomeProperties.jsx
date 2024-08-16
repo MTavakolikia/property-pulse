@@ -7,8 +7,6 @@ const HomeProperties = () => {
   const randomProperties = properties
     .sort(() => Math.random() - Math.random())
     .slice(0, 3);
-  console.log(randomProperties);
-
   return (
     <>
       <section className="px-4 py-6">
