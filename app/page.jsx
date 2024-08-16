@@ -5,8 +5,8 @@ import React from "react";
 const HomePage = () => {
   return (
     <div>
-      <Hero />
       <InfoBoxes />
+      <Hero />
     </div>
   );
 };
