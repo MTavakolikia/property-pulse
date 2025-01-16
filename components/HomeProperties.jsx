@@ -1,5 +1,4 @@
 import properties from "@/properties.json";
-import Image from "next/image";
 import PropertyCard from "./PropertyCard";
 import Link from "next/link";
 

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const PropertyCard = ({ property }) => {
   const getRateDisplay = () => {
@@ -65,12 +66,12 @@ const PropertyCard = ({ property }) => {
             <i className="fa-solid fa-location-dot text-lg text-orange-700"></i>
             <span className="text-orange-700"> Boston MA </span>
           </div>
-          <a
-            href="property.html"
+          <Link
+            href={`/properties/${property._id}`}
             className="h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm"
           >
             Details
-          </a>
+          </Link>
         </div>
       </div>
     </div>
